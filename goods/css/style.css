@@ -15,6 +15,7 @@ html, body {
 
 a {
   text-decoration: none;
+  margin-left: 10px;
 }
 
 embed {
@@ -23,34 +24,43 @@ embed {
 
 h1,h2,h3,h4,h5,h6, p, a, button {
   font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #282828;
 }
 
-header {
-  width: 100vw;
-  height: 100vh;
-  text-align: center;
-  display: table;
-  border: 20px solid black;
-  box-sizing: border-box;
-  position: relative;
-}
-
-.hero {
-  display: table-cell;
-  vertical-align: middle;
-  position: relative;
-  width: 800px;
+a, button {
+  font-weight: 400;
 }
 
 #toursText {
-  width: 300px;
+  width: 400px;
   display: block;
   margin: 0 auto;
   visibility: hidden;
   transform: rotate(-90deg);
   position: absolute;
-  top: 200px;
+  top: 250px;
   left: -100px;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: table;
+  border: 20px solid black;
+  box-sizing: border-box;
+}
+
+.hero {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+svg {
+  animation: pulse 1s infinite;
+  animation-delay: 2.5s;
+
 }
 
 #Page-1 #Oval {
@@ -72,12 +82,6 @@ header {
   100%{
      stroke-dashoffset: 0;
   }
-}
-
-
-svg {
-  animation: pulse 1s infinite;
-  animation-delay: 2.5s;
 }
 
 @keyframes pulse {
@@ -106,17 +110,24 @@ svg {
     transform: scale(1);
   }
 }
-.headerFooter {
-  padding: 25px 0;
-  width : 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 300;
-  visibility: hidden;
+
+input {
+  padding:5px;
+  box-sizing: border-box;
 }
+button {
+  padding: 5px;
+  width: 100px;
+  border: 2px solid #282828;
+  border-radius: 0;
+  transition: .2s ease;
+}
+button:hover {
+  cursor: pointer;
+  background: #282828;
+  color: white;
+}
+
 
 .fadeIn {
   animation-delay: 3s;
@@ -133,45 +144,13 @@ svg {
   }
 }
 
-
-
-.headerFooter a{
-  margin-left: 10px;
-  font-size: 15px;
-  color: #282828;
-  font-weight: 400;
-}
-.headerFooter a:hover {
-  opacity: .7;
-}
-
-input {
-  padding:5px;
-  box-sizing: border-box;
-}
-button {
-  padding: 5px;
-  width: 100px;
-  border: 2px solid #282828;
-  border-radius: 0;
-  transition: .2s ease;
-}
-
-button:hover {
-  cursor: pointer;
-  background: #282828;
-  color: white;
-}
-
-
 @media (max-width:500px) {
   embed {
     display: none;
   }
-  svg {
-    width: 75px;
-  }
-  headerFooter {
-    margin-top: 50px;
+  #toursText {
+    width: 300px;
+    left: -90px;
+    top: 200px;
   }
 }
