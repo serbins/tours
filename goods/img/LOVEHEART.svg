@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="255px" height="384px" viewBox="0 0 255 384" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>LOVEHEART</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LOVEHEART" transform="translate(6.000000, 6.000000)" stroke-width="12">
+            <path d="M232.391606,116.488944 L123.901324,291.209178 L232.391606,116.488944 Z" id="Triangle" stroke="#E05057"></path>
+            <path d="M165.681818,154.411765 C195.840574,154.411765 221.966368,137.169681 234.712324,112.018813 C240.013312,101.558675 243,89.7305614 243,77.2058824 C243,34.5662509 208.383471,0 165.681818,0 C122.980165,0 88.3636364,34.5662509 88.3636364,77.2058824 C88.3636364,119.845514 122.980165,154.411765 165.681818,154.411765 Z" id="Oval" stroke="#E04F57"></path>
+            <path d="M11.8962856,374.424592 L177.609072,118.319726 L11.8962856,374.424592 Z" id="Triangle" stroke="#E05057" transform="translate(94.752679, 246.372159) scale(-1, 1) translate(-94.752679, -246.372159) "></path>
+            <ellipse id="Oval" stroke="#E04F57" transform="translate(77.318182, 77.205882) scale(-1, 1) translate(-77.318182, -77.205882) " cx="77.3181818" cy="77.2058824" rx="77.3181818" ry="77.2058824"></ellipse>
+        </g>
+    </g>
+</svg>
