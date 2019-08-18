@@ -131,7 +131,7 @@ svg {
   text-align: center;
   font-size: 14px;
   font-weight: 300;
-  opacity: 0;
+  visibility: hidden;
 }
 
 .headerFooter a{
