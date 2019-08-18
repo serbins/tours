@@ -168,4 +168,10 @@ button:hover {
   embed {
     display: none;
   }
+  svg {
+    with: 75px;
+  }
+  headerFooter {
+    margin-top: 50px;
+  }
 }
