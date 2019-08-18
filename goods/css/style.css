@@ -131,6 +131,7 @@ svg {
   text-align: center;
   font-size: 14px;
   font-weight: 300;
+  opacity: 0;
 }
 
 .headerFooter a{
@@ -163,7 +164,7 @@ button:hover {
 
 
 @media (max-width:500px) {
-  /* #toursText {
-    width: 350px;
-  } */
+  embed {
+    display: none;
+  }
 }
